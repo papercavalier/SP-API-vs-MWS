@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<GetCompetitivePricingForASINResponse xmlns="http://mws.amazonservices.com/schema/Products/2011-10-01">
+  <GetCompetitivePricingForASINResult ASIN="0066238501" status="Success">
+    <Product xmlns:ns2="http://mws.amazonservices.com/schema/Products/2011-10-01/default.xsd">
+      <Identifiers>
+        <MarketplaceASIN>
+          <MarketplaceId>A1F83G8C2ARO7P</MarketplaceId>
+          <ASIN>0066238501</ASIN>
+        </MarketplaceASIN>
+      </Identifiers>
+      <CompetitivePricing>
+        <CompetitivePrices>
+          <CompetitivePrice belongsToRequester="false" condition="New" subcondition="New">
+            <CompetitivePriceId>1</CompetitivePriceId>
+            <Price>
+              <LandedPrice>
+                <CurrencyCode>GBP</CurrencyCode>
+                <Amount>29.17</Amount>
+              </LandedPrice>
+              <ListingPrice>
+                <CurrencyCode>GBP</CurrencyCode>
+                <Amount>29.17</Amount>
+              </ListingPrice>
+              <Shipping>
+                <CurrencyCode>GBP</CurrencyCode>
+                <Amount>0.00</Amount>
+              </Shipping>
+            </Price>
+          </CompetitivePrice>
+        </CompetitivePrices>
+        <NumberOfOfferListings>
+          <OfferListingCount condition="New">3</OfferListingCount>
+          <OfferListingCount condition="Collectible">2</OfferListingCount>
+          <OfferListingCount condition="Used">11</OfferListingCount>
+          <OfferListingCount condition="Any">16</OfferListingCount>
+        </NumberOfOfferListings>
+      </CompetitivePricing>
+      <SalesRankings>
+        <SalesRank>
+          <ProductCategoryId>book_display_on_website</ProductCategoryId>
+          <Rank>39541</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>15512479031</ProductCategoryId>
+          <Rank>764</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>291745</ProductCategoryId>
+          <Rank>834</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>291753</ProductCategoryId>
+          <Rank>908</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>book_display_on_website</ProductCategoryId>
+          <Rank>39769</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>15512479031</ProductCategoryId>
+          <Rank>770</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>291745</ProductCategoryId>
+          <Rank>839</Rank>
+        </SalesRank>
+        <SalesRank>
+          <ProductCategoryId>291753</ProductCategoryId>
+          <Rank>917</Rank>
+        </SalesRank>
+      </SalesRankings>
+    </Product>
+  </GetCompetitivePricingForASINResult>
+  <ResponseMetadata>
+    <RequestId>d69818ce-f433-44d2-b7de-d45793ae805b</RequestId>
+  </ResponseMetadata>
+</GetCompetitivePricingForASINResponse>
