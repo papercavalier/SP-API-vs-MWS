@@ -10,7 +10,7 @@ For example, an API has a rate limit of 10 calls/minute and a burst limit of 3 c
 
 Operation |SP API|MWS
 ----|----|---
-GetItemOffers|Rate = 5 Burst = 10|Rate = 5 items per second, 10 requests max, 200 requests per hour
+GetItemOffers|Rate = 5 Burst = 10|Rate = 5 items per second, 10 requests max, ~~200 requests per hour~~ 
 GetPricing| Rate = 10 Burst = 20, up to 20 asins| 10 items per seconds, 20 requests max, 36000 per hour
 GetCompetitivePricing|Rate = 10 Burst = 20, up to 20 asins|10 items every second, 20 requests max, 36000 per hour
 GetListingOffers|Rate = 5 Burst = 10|5 items per second, 10 requests max, 200 requests per hour
